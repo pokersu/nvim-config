@@ -21,6 +21,7 @@ opt.mouse:append("a")
 
 -- enable system clipboard
 opt.clipboard:append("unnamedplus")
+opt.cmdheight=3
 
 -- default split window
 opt.splitright = true
