@@ -15,12 +15,23 @@ require("mason-lspconfig").setup({
     "cssls",
     "pyright",
     "bashls",
+    "dockerfilels",
+    "jdtls",
+    "jsonls",
+    "sqlls",
+    "yamlls"
   },
 })
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
-require("lspconfig").lua_ls.setup {
-  capabilities = capabilities,
-}
+require("lspconfig").lua_ls.setup { capabilities = capabilities, }
+require("lspconfig").html.setup {}
+require("lspconfig").cssls.setup {}
 require("lspconfig").pyright.setup {}
+require("lspconfig").bashls.setup {}
+require("lspconfig").dockerfilels.setup {}
+require("lspconfig").jdtls.setup {}
+require("lspconfig").jsonls.setup {}
+require("lspconfig").sqlls.setup {}
+require("lspconfig").yamlls.setup {}
