@@ -32,4 +32,4 @@ require("lspconfig").bashls.setup {}
 require("lspconfig").jsonls.setup {}
 require("lspconfig").sqlls.setup {}
 require("lspconfig").yamlls.setup {}
-require("lspconfig").rust_analyzer.setup {}
+require("lspconfig")['rust_analyzer'].setup {}
