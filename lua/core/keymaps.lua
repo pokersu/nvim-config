@@ -25,3 +25,6 @@ keymap.set("n", "<C-H>", ":bprevious<CR>")
 -- ---------- plugin ---------- ---
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+
+-- float terminal
+keymap.set("n", "<leader>t", ":FloatermNew<CR>")
