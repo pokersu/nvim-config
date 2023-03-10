@@ -37,14 +37,3 @@ keymap.set("n", "<leader>tk", ":FloatermKill<CR>")
 keymap.set("t", "<leader>tn", "<C-\\><C-n>:FloatermNext<CR>")
 keymap.set("t", "<leader>te", "<C-\\><C-n>")
 
-
-
--- jdtls
-keymap.set("n", "<leader>oo", "<Cmd>lua require'jdtls'.organize_imports()<CR>")
-
-
---nnoremap crv <Cmd>lua require('jdtls').extract_variable()<CR>
---vnoremap crv <Esc><Cmd>lua require('jdtls').extract_variable(true)<CR>
---nnoremap crc <Cmd>lua require('jdtls').extract_constant()<CR>
---vnoremap crc <Esc><Cmd>lua require('jdtls').extract_constant(true)<CR>
---vnoremap crm <Esc><Cmd>lua require('jdtls').extract_method(true)<CR>
