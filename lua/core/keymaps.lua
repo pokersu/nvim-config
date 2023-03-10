@@ -40,7 +40,7 @@ keymap.set("t", "<leader>te", "<C-\\><C-n>")
 
 
 -- jdtls
-keymap.set("n", "<A-o>", "<Cmd>lua require'jdtls'.organize_imports()<CR>")
+keymap.set("n", "<leader>oo", "<Cmd>lua require'jdtls'.organize_imports()<CR>")
 
 
 --nnoremap crv <Cmd>lua require('jdtls').extract_variable()<CR>
