@@ -18,7 +18,8 @@ require("mason-lspconfig").setup({
     "jsonls",
     "sqlls",
     "yamlls",
-    "rust-analyzer"
+    "rust-analyzer",
+    "jdtls"
   },
 })
 
@@ -33,3 +34,4 @@ require("lspconfig").jsonls.setup {}
 require("lspconfig").sqlls.setup {}
 require("lspconfig").yamlls.setup {}
 require("lspconfig").rust_analyzer.setup {}
+require("lspconfig").jdtls.setup {}
