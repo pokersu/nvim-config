@@ -47,7 +47,7 @@ keymap.set("n", "<C-H>", ":bprevious<CR>")
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
 -- float terminal
-keymap.set("n", "<leader>t", ":FloatermNew<CR>")
+keymap.set("n", "<leader>t", ":FloatermNew --height=0.5 --width=0.5 --position=bottomright<CR>")
 keymap.set("n", "<leader>ttr", ":FloatermNew --height=0.5 --width=0.5 --position=topright<CR>")
 keymap.set("n", "<leader>tbr", ":FloatermNew --height=0.5 --width=0.5 --position=bottomright<CR>")
 keymap.set("n", "<leader>ttl", ":FloatermNew --height=0.5 --width=0.5 --position=topleft<CR>")
