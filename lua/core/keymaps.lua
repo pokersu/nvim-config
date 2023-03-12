@@ -32,6 +32,8 @@ keymap.set("n", "<leader>sv", "<C-w>v") -- vertical add window
 keymap.set("n", "<leader>sh", "<C-w>s") -- horizental add window
 keymap.set("n", "<C-a>", "ggvG$")
 keymap.set("n", "U", "<C-r>")
+keymap.set("n", "H", "^")
+keymap.set("n", "L", "$")
 
 -- cancel highlight
 keymap.set("n", "<leader>nh", ":nohl<CR>")
