@@ -34,7 +34,7 @@ opt.hlsearch = true
 opt.incsearch = true
 
 -- timeout
-opt.timeoutlen=100
+opt.timeoutlen=200
 opt.ttimeoutlen=0
 
 -- view
